@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="peso">Enter your weight</string>
+    <string name="altura">Enter your height</string>
+    <string name="sistema">System to calculate the Body Mass Index (BMI)</string>
+    <string name="peso_kg">Weight kg</string>
+    <string name="calcular_BMI">Calculate BMI</string>
+    <string name="altura_mts">Height Mts</string>
+    <string name="segun_sobre_peso">According to the WHO You are in rating of WEIGHT by having a BMI of:</string>
+    <string name="segun_peso_obesidad">According to the WHO You are in OBESITY qualification for having a BMI of:</string>
+    <string name="segun_bajo_peso">According to the WHO You are in the category of LOW WEIGHT with thinness cebera to have a BMI of:</string>
+    <string name="segun_peso_normal">According to WHO You are in NORMAL weight rating for having a BMI of:</string>
+    <string name="resultado">Result</string>
+    <string name="acerca_de">About</string>
+    <string name="Salir">Exit</string>
+    <string name="Estatura_mts">Height Mts</string>
+</resources>

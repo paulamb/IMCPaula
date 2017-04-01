@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="peso">Ingrese su peso</string>
+    <string name="altura">Ingrese su estatura</string>
+    <string name="sistema">Sistema para calcular el Indice de Masa Corporal (IMC)</string>
+    <string name="peso_kg">Peso kg</string>
+    <string name="calcular_BMI">Calcular IMC</string>
+    <string name="Estatura_mts">Estatura Mts</string>
+    <string name="segun_bajo_peso">"Segun la OMS Usted se encuentra en categoria de BAJO PESO  con delgadez cebera por tener un IMC de: "</string>
+    <string name="segun_sobre_peso">"Segun la OMS Usted se encuentra en calificación de SOBRE PESO por tener un IMC de: "</string>
+    <string name="segun_peso_normal">"Segun la OMS Usted se encuentra en calificación de peso NORMAL por tener un IMC de: "</string>
+    <string name="segun_peso_obesidad">"Segun la OMS Usted se encuentra en calificación de OBESIDAD por tener un IMC de: "</string>
+    <string name="resultado">Resultado</string>
+    <string name="acerca_de">Acerca De</string>
+    <string name="Salir">Salir</string>
+    <string name="altura_mts">altura_mts</string>
+</resources>

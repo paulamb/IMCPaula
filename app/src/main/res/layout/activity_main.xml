@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="co.edu.umariana.paulamunoz.imc.MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peso"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/et_peso"
+        android:hint="@string/peso_kg"
+        android:inputType="number"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/et_peso"
+        android:layout_marginTop="19dp"
+        android:text="Altura"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/et_altura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="altura_mts"
+        android:inputType="numberDecimal"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_alignLeft="@+id/et_peso"
+        android:layout_alignStart="@+id/et_peso" />
+
+    <TextView
+        android:text="@string/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_resultado"
+        android:layout_below="@+id/button"
+        android:layout_toLeftOf="@+id/et_altura"
+        android:layout_toStartOf="@+id/et_altura"
+        android:layout_marginTop="11dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
+        android:onClick="calcular"
+        android:text="CALCULAR"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:layout_below="@+id/et_altura"
+        android:layout_toRightOf="@+id/acerca_de"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_alignRight="@+id/et_altura"
+        android:layout_alignEnd="@+id/et_altura" />
+
+    <Button
+        android:text="@string/acerca_de"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/acerca_de"
+        android:onClick="acercade"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/acerca_de"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:onClick="historico"
+        android:text="Historia"
+        android:layout_toEndOf="@+id/et_altura"
+        android:layout_alignTop="@+id/acerca_de"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <ImageView
+        android:id="@+id/imagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_resultado"
+        android:layout_alignStart="@+id/tv_resultado"
+        android:layout_below="@+id/tv_resultado"
+        android:layout_marginTop="18dp"
+        app:srcCompat="@drawable/imagen" />
+
+</RelativeLayout>
